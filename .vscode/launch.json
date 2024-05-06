@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/rajes/OneDrive/Desktop/DSA",
-      "program": "c:/Users/rajes/OneDrive/Desktop/DSA/build/Debug/outDebug",
+      "cwd": "c:/Users/rajes/OneDrive/Desktop/DSA/patterns",
+      "program": "c:/Users/rajes/OneDrive/Desktop/DSA/patterns/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
