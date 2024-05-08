@@ -8,7 +8,7 @@ int printMaximum (int a, int b, int c){
 }
 
 int main(){
-    int maximum = printMaximum(10,30,1000);
-   cout<< "maximum of 3 number is : "<<maximum<<endl;
+    int max = printMaximum(10,30,1000);
+   cout<< "maximum of 3 number is : "<<max<<endl;
    return 0;
 }

@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-void printCounting (int n){
-    for (int i = 1; i <=n; i++)
+void printCounting (int num){
+    for (int i = 1; i <=num; i++)
     {
         cout<<i<<endl;
     }

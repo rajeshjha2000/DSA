@@ -1,14 +1,14 @@
 #include <iostream> 
 using namespace std;
 
-void printSum () {
+void printSum (int n) {
     cout<< "msg 1";
     return;
     cout<< "msg 2";
 }
 
 int main (){
-    printSum();
+    printSum(4);
     return 0;
 }
    

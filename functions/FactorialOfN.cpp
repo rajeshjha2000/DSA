@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-long long int factorial (long long n){
+long long int factorial (long long N){
     long long int fact = 1;
-    for (int i = 1; i <=n; i++)
+    for (int i = 1; i <=N; i++)
     {
         fact = fact * i ; 
          ;
@@ -12,10 +12,10 @@ long long int factorial (long long n){
 }
 
 int main (){
-    int n;
-    cin>>n;
-   long long int result = factorial(n);
-    cout<<"factorial of "<<n<<" is "<<result;
+    int N;
+    cin>>N;
+   long long int result = factorial(N);
+    cout<<"factorial of "<<N<<" is "<<result;
 
     return 0;
 }

@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-bool checkEven (int n){
+bool checkEven (int num){
     { 
-        if ((n&1)==0)
+        if ((num&1)==0)
         {
             return true;
         }
@@ -18,17 +18,17 @@ bool checkEven (int n){
 }
 
 int main(){
-    int n ;
-    cin>>n ;
-  bool isEven = checkEven(n);
+    int num ;
+    cin>>num ;
+  bool isEven = checkEven(num);
    
    if (isEven)
    {
-    cout<<n<<" is even number";
+    cout<<num<<" is even number";
    }
 
    else{
-    cout<<n<<" is odd number";
+    cout<<num<<" is odd number";
     } 
    
    return 0;

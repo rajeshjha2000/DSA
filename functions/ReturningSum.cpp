@@ -9,7 +9,7 @@ int sum (int a, int b, int c){
 
 int main (){
     
-    int result = sum(4, 4, 5);
+    int result = sum(49, 54, 55);
      cout<<"sum of these three numbers :"<< result << endl ;
      return 0;
 }

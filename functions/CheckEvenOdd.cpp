@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-void printCounting (int n){
-   if (n%2==0)
+void printCounting (int number){
+   if (number%2==0)
    {
     cout<<"even number";
    }

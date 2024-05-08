@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-void findSumUptoN (int n){
+void findSumUptoN (int num){
     int sum = 0;
-    for (int i = 2; i <=n; i=i+2)
+    for (int i = 2; i <=num; i=i+2)
     { 
         sum = sum + i ;
        
@@ -12,6 +12,6 @@ void findSumUptoN (int n){
 }
 
 int main(){
-   findSumUptoN(10);
+   findSumUptoN(11);
    return 0;
 }
