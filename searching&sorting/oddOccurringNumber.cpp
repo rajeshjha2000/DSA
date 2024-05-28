@@ -42,8 +42,11 @@ int findOddOccuringElement(vector<int> arr){
                 s = mid + 2;
             }
            
-           //  catch => store mid in answer and go to left side to get answer
+          
             else{
+                // ya to mai right part par khada hu
+          // ya to mai answer par khada hu
+          // thats why e = mid,  bcoz e = mid - 1 se answer lost ho skta hai
                ans=mid;
                e=mid;
             }
