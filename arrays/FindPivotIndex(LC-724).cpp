@@ -1,22 +1,26 @@
 // class Solution {
 // public:
 //     int pivotIndex(vector<int>& nums) {
-//        int n = nums.size();
-//        int rightSum =0;
-//        int leftSum = 0;
+//     vector<int> lsum(nums.size(),0);
+ //   vector<int> rum(nums.size(),0);
 
-//        **step 01 = total sum as right sum**
-//        for(int i=0; i<n; i++){
-//         rightSum+= nums[i]; 
-//        }
-//         for(int i=0; i<n; i++){
-//             rightSum-= nums[i];  **subtract element one by one from right sum until left sum equal to right sum**
-//             if(rightSum==leftSum){
-//                 return i;  **when left sum and right sum are equal then return index**
-//             }
-//             leftSum+=nums[i];
+ // calculate lsum array
+ // for(int i=1; i<nums.size(); i++){
+ //  lsum[i] = lsum[i-1] + nums[i-1];
+ //  }
 
-//         }
+  // calculate rsum array
+ // for(int i=nums.size()-2; i>=0; i--){
+ //  rsum[i] = rsum[i+1] + nums[i+1];
+// }
+ 
+
+ // check krte hain 
+// for(int i=0; i<nums.size(); i++){
+//  if(lsum[i]==rsum[i]){
+// return i ;
+//}
+// 
 //         return -1;
         
 //     }
