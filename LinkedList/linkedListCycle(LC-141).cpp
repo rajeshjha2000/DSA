@@ -33,3 +33,29 @@ public:
         return false;
     }
 };
+-------------------------------------------------------------------------------------------
+// 2nd method 
+bool hasCycle(ListNode *head) {
+    // step 1
+    ListNode* slow = head;
+    ListNode* fast = head;
+
+    // step 2 
+    while (fast != NULL)
+    {
+        fast = fast->next;
+        if (fast != NULL)
+        {
+            fast = fast->next;
+            slow = slow->next;
+        }
+
+        // check loop
+        if (slow == fast)
+        {
+            return true;
+        }
+        // loop is not present
+    } return false;
+    
+}
