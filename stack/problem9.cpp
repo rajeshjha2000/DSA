@@ -1,4 +1,4 @@
-// 📂 Problem 9: Remove Redundant Brackets
+// Problem 9: Remove Redundant Brackets
 
 /*
 Example 1:
