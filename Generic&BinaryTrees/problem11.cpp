@@ -107,4 +107,15 @@ int main() {
 }
 
 /*
-Binary Tree Inp
+Binary Tree Input: 10 30 61 -1 -1 60 62 -1 -1 -1 20 50 -1 65 -1 69 -1 -1 40 -1 -1
+
+OUTPUT:
+Level Wise Order: 
+10 
+30 20 
+61 60 50 40 
+62 65 
+69 
+Right view: 
+10 20 40 65 69 
+*/
